@@ -1,0 +1,10 @@
+//登录请求
+message GameLoginReq {
+	string account = 1;		// 登录帐号
+	string password = 2;	// 登录密码
+}
+
+//登录返回
+message GameLoginResp {
+	int32 result = 1;	// 返回结果.
+}
